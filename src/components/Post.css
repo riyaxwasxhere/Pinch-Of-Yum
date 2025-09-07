@@ -1,0 +1,43 @@
+#post-img img{
+    height: 240px;
+    width: 240px;
+}
+#post{
+    display: flex;
+    gap: 20px;
+}
+
+#post-details{
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#post-details h4{
+    color: #808080;
+    text-transform: uppercase;
+    font-family: 'Arvo', serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#post-details h1{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+#post-details p{
+    font-family: 'Bitter', serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434343;
+}
+
+#post-details h3{
+    font-size: 16px;
+    color: #EBB454;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,38 @@
+#slider-card{
+    position: relative;
+    margin-bottom: 35px;
+}
+
+#slider-card img{
+    height: 300px;
+    width: 212px;
+    object-position: center;
+    border: 1px solid #734060;
+    border-radius: 20px;
+}
+
+#slider-card span{
+    text-decoration: none;
+    background-color: #724060;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    position: absolute;
+    top: 290px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#slider-card h2{
+    font-size: 20px;
+    margin: 15px 10px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    white-space: wrap;
+    font-family: 'Bitter' Georgia, Cambria, 'Times New Roman', Times, serif,serif;
+}

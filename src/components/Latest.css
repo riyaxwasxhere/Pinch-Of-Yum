@@ -1,0 +1,37 @@
+#post-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+#latest-heading{
+    font-family: "Arvo", serif;
+    color: #734060;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.post-separator{
+    background-color: #a58d9c;
+    height: 1px;
+}
+#more-posts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#more-posts button{
+    height: 45px;
+    width: 450px;
+    outline: none;
+    border: none;
+    background-color: #734060;
+    color: #FFFFFF;
+    font-size: 17PX;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,99 @@
+#hero-section{
+    background-color: #F7F7F7;
+    padding: 40px 184px;
+}
+
+#food-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+/* favourite */
+#favourite{
+    margin-top: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#favourite h2{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    color: #4D4D4D;
+    letter-spacing: -1px;
+}
+
+#favourite span{
+    font-family: "Allura", cursive;
+    text-transform: capitalize;
+    color: #734060;
+    font-size: 32px;
+    padding: 0 10px;
+}
+
+/* image slider */
+#img-slider{
+    margin: 35px 15px;
+}
+
+/* recipe types */
+#recipe-types{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* form */
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#input-field{
+    display: flex;
+    align-items: center;
+    border: 1px solid #734060;
+    height: 50px;
+    width: 500px;
+    padding: 0 15px;
+    gap: 10px;
+}
+
+#input-field input{
+    height: 100%;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    border: none;
+}
+
+#search-rec{
+    color: #734060;
+    font-size: 22px;
+}
+#or{
+    font-family: 'Allura',cursive;
+    font-size: 40px;
+    color: #83797f;
+}
+#view-all{
+    height: 50px;
+    width: 225px;
+    background-color: #734060;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#plus-icon{
+    font-size: 10px;
+}

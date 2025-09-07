@@ -1,0 +1,42 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 200px;
+}
+
+#logo{
+  font-family: "Lora", serif;
+  font-weight: 100;
+  font-size: 42px;
+  color: #734060;
+}
+
+#of{
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  color: #979797;
+}
+
+#nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.nav-link{
+  font-size: 17px;
+  color: #000;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#search{
+    font-size: 19px;
+    color: #734060;
+}
+

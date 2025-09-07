@@ -1,0 +1,14 @@
+#s-platforms {
+  display: flex;
+  gap: 15px;
+  justify-content: center; 
+  align-items: center;
+}
+
+#s-platforms .icon {
+  background: #734060;     
+  color: white;            
+  border-radius: 50%;      
+  padding: 5px;           
+  font-size: 45px;         
+}

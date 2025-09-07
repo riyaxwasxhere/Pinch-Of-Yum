@@ -1,0 +1,38 @@
+#c-img img{
+    height: 275px;
+    width: 275px;
+}
+#c-img{
+    display: flex;
+    justify-content: center;
+}
+#c-item{
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    position: relative;
+    align-items: center;
+}
+
+#c-img p{
+    background-color: #EBB454;
+    height: 35px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Bitter', serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    position: absolute;
+    top: 257px;
+}
+#c-item h3{
+    margin: 30px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    text-align: center;
+}

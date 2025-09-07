@@ -1,0 +1,19 @@
+
+#scroll-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 110px;
+}
+
+#scroll-strip{
+  display: inline-flex;
+  gap: 150px;
+}
+
+.scroll-item{
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+}

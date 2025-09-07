@@ -1,0 +1,26 @@
+#food-card{
+    position: relative;
+}
+
+#p-img{
+    height: 390px;
+    width: 275px;
+    object-position: center;
+}
+#p-name{
+    background-color: #EDB654;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Bitter',serif;
+    padding: 10px 23px;
+    letter-spacing: 2px;
+    position: absolute;
+    z-index: 2;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}

@@ -1,0 +1,513 @@
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+  font-family : 'Gilroy';
+}
+
+html, body {
+  height: 100%;
+  width : 100%;
+}
+
+#inbox{
+  height: 41px;
+  background-color: #734060;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#inbox h2, #signup{
+  font-size: 14px;
+  font-family: 'Montserrat',sans-serif;
+  color: #DDC5D8;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+
+#signup{
+  color: #FFFFFF;
+  font-weight: 900;
+}
+
+#heart{
+  font-size: 9px;
+  margin: 0 10px;
+  color: #EBB454;
+}
+
+#close{
+  position: absolute;
+  right: 0.5%;
+  color: #DDC5D8;
+}
+
+.separator{
+  height: 1px;
+  background-color: #DDC5D8;
+}
+
+#second-sep{
+  margin: 0 184px;
+}
+
+/* article -main */
+#top-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+#top-section h1{
+  font-family: 'Arvo', serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+#top-section span{
+  text-transform: lowercase;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: #734060;
+}
+
+#seen-in{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#seen-in h3{
+  color: #EBB454;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+
+
+#posts{
+  padding: 60px 180px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 70px;
+  justify-content: space-between;
+}
+
+/* about section */
+#about-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 185px;
+  gap: 10px;
+}
+
+#txt-about{
+  color: #4D4D4D;
+  height: 465px;
+  width: 375px;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 62px;
+}
+
+#txt-about h3{
+  font-family: 'Arvo', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #000;
+}
+#txt-about h4{
+  font-family: 'Allura', cursive;
+  font-size: 48px;
+  margin-top: -10px;
+  font-weight: 100;
+}
+
+#txt-about p{
+  font-family: 'Bitter', serif;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  margin: 10px 0 30px 0;
+}
+
+#txt-about button{
+  background-color: #4D4D4D;
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+  height: 35px;
+  width: 140px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.img-about img{
+  height: 465px;
+  width: 375px;
+  object-position: center;
+}
+
+#connect{
+  background-color: #734060;
+  height: 165px;
+  color: #FFFFFF;
+  padding: 0 185px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#follow h3{
+  font-family: 'Arvo', serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+#follow{
+  display: flex;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#email-updates form{
+  display: flex;
+  gap: 5px;
+}
+
+#for-email h2{
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#for-email span{
+  font-family: 'Allura', cursive;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.e-input input{
+  height: 50px;
+  border: none;
+  outline: none;
+  width: 245px;
+  font-family: 'Bitter', serif;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#go-btn{
+  height: 50px;
+  width: 75px;
+  background-color: #EBB454;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+/* category section */
+#categories{
+  margin-top: 65px;
+  position: relative;
+}
+
+#c-wrapper{
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  height: 65px;
+  position: absolute;
+}
+
+.c-options h3{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  background-color: #E6E6E6;
+  padding: 12px;
+}
+
+
+#c-items{
+  background-color: #F7F7F7;
+  padding: 65px 185px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* cookcook */
+#cookbook{
+  height: 410px;
+  background-color: #4D4D4D;
+  padding: 30px 312px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#cookbook-img img{
+  height: 330px;
+  width: 440px;
+}
+
+#cookbook-details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  color: #FFFFFF;
+  justify-content: right;
+}
+
+#cookbook-details h2{
+  font-family: 'Allura', cursive;
+  font-size: 60px;
+  font-weight: 100;
+  color: #EBB454;
+  
+}
+#cookbook h3{
+  font-family: 'Arvo', serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+#cookbook p{
+  font-family: 'Bitter', serif;
+  margin: 20px 0;
+  line-height: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#cookbook-form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+#cookbook-form input{
+  height: 50px;
+  width: 190px;
+  font-family: 'Bitter', serif;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+
+#cookbook-form button{
+  height: 50px;
+  width: 55px;
+  background-color: #EBB454;
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-family: 'Montserrat', serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#upper-footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  padding: 40px 185px;
+}
+
+#f-part1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#pinch-of-yum h3, #food-and-rec h3{
+  font-family: 'Arvo',serif;
+  font-size: 12px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #4D4D4D;
+
+}
+
+#pinch-of-yum li, #food-and-rec li{
+  list-style: none;
+  font-size: 14px; 
+  line-height: 30px;
+  font-family: 'Bitter', serif;
+  color: #4D4D4D;
+}
+
+#f-part2{
+  display: grid;
+  grid-template-rows: 1.3fr 1fr;
+}
+
+#email-updates{
+  background-color: #734060;
+  padding: 20px;
+  color: #FFFFFF;
+}
+
+#email-updates h3{
+  font-family: 'Arvo', serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+
+}
+#email-updates h3 span{
+  font-family: 'Allura',cursive;
+  font-size: 40px;
+  font-weight: 100;
+  text-transform: lowercase;
+}
+
+#email-updates h4{
+  font-family: 'Bitter', serif;
+  font-style: italic;
+  font-weight: 400;
+  color: rgb(255, 228, 232);
+  margin-bottom: 20px;
+  text-align: center;
+}
+#email-form{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+#email-form input{
+  height: 50px;
+  width: 215px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-family: 'Bitter', serif;
+}
+
+#email-form button{
+  height: 50px;
+  width: 65px;
+  background-color: #EBB454;
+  border: none;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#other-brands{
+  padding: 20px;
+  gap: 10px;
+}
+
+#other-brands p{
+  font-family: 'Arvo', serif;
+  text-align: center;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4D4D4D;
+  letter-spacing: 2px;
+}
+
+#brands{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+#b-img2{
+  height: 33px;
+}
+
+#b-img1{
+  height: 48px;
+}
+
+#last{
+  padding: 40px 185px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#rights p{
+  font-family: 'Bitter', serif;
+  color: #4D4D4D;
+  font-size: 12px;
+}
+
+#term-and-policy{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#term-and-policy p{
+  font-family: 'Bitter', serif;
+  color: #4D4D4D;
+  font-size: 12px;
+}
+
+#logo2-container{
+  margin-top: -15px;
+}
+#logo2{
+  font-family: "Lora", serif;
+  font-weight: 100;
+  font-size: 40px;
+  color: #734060;
+}
+
+#of2{
+  font-family: "Dancing Script", cursive;
+  font-weight: 100;
+  font-size: 58px;
+  color: #979797;
+}
+
+#f-socials{
+  padding: 0 185px;
+  display: flex;
+}
