@@ -3,7 +3,11 @@
     margin-bottom: 35px;
 }
 
-#slider-card img{
+#slider-nav{
+    text-decoration: none;
+}
+
+#slider-nav img{
     height: 300px;
     width: 212px;
     object-position: center;
@@ -11,8 +15,7 @@
     border-radius: 20px;
 }
 
-#slider-card span{
-    text-decoration: none;
+#slider-nav span{
     background-color: #724060;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -27,12 +30,27 @@
     left: 50%;
     transform: translateX(-50%);
 }
-#slider-card h2{
+#slider-nav h2{
     font-size: 20px;
     margin: 15px 10px;
-    text-decoration: none;
     color: #000;
     text-align: center;
     white-space: wrap;
     font-family: 'Bitter' Georgia, Cambria, 'Times New Roman', Times, serif,serif;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 40px;   
+    color: rgb(91, 83, 83);
+    font-weight: 100;
+    
+}
+.slick-prev:before{
+    position: absolute;
+    left: -15px;
+    top: -50px;
+}
+.slick-next:before{
+    position: absolute;
+    right: -15px;
+    top: -50px;
 }
