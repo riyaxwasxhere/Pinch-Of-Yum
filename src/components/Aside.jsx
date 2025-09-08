@@ -8,7 +8,7 @@ const Aside = () => {
       </div>
 
       <div id="rec-collections">
-        <div className="collection-items">
+        <div className="collection-heading">
           <h3 id='collec-heading'>Recipe collections</h3>
         </div>
 

@@ -78,7 +78,6 @@ const App = () => {
         </section>
           
         <section id="email-updates">
-
             <div id="for-email">
               <h2><span>signup</span> For email updates</h2>
             </div>
@@ -192,6 +191,7 @@ const App = () => {
           <div id="f-socials">
             <Social/>
           </div>
+          
           <div id="last">
             <div id="logo2-container">
               <h2 id='logo2'>pinch <span id='of2'>of</span> yum</h2>

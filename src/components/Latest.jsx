@@ -15,7 +15,7 @@ const Latest = () => {
 
         <div className="post-separator"></div>
 
-        <Post src="https://pinchofyum.com/cdn-cgi/image/width=360,height=360,fit=crop/wp-content/uploads/Chocolate-Cherry-Smoothie-1.jpg" date="July 23, 2025" heading="Chocolate Cheery Smoothie" description="Chocolate Cherry Smoothie every day, please! Packed with protein and so delightfully silky and smooth." />
+        <Post src="https://pinchofyum.com/cdn-cgi/image/width=360,height=360,fit=crop/wp-content/uploads/Chocolate-Cherry-Smoothie-1.jpg" date="July 23, 2025" heading="Chocolate Cherry Smoothie" description="Chocolate Cherry Smoothie every day, please! Packed with protein and so delightfully silky and smooth." />
 
         <div className="post-separator"></div>
 

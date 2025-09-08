@@ -12,8 +12,13 @@
     width: 275px;
     position: relative;
     align-items: center;
+    opacity: 1;
+    transition: opacity 0.1s ease;
+    cursor: pointer;
 }
-
+#c-item:hover{
+    opacity: 0.7;
+}
 #c-img p{
     background-color: #EBB454;
     height: 35px;

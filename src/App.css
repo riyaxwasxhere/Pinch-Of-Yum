@@ -176,6 +176,12 @@ html, body {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#txt-about button:hover{
+  background-color: #000;
 }
 
 .img-about img{
@@ -248,6 +254,7 @@ html, body {
   color: #FFFFFF;
   font-weight: 800;
   letter-spacing: 2px;
+  cursor: pointer;
 }
 
 /* category section */
@@ -267,12 +274,22 @@ html, body {
   height: 65px;
   position: absolute;
 }
+.c-options{
+  background-color: #E6E6E6;
+  color: #000;
+  transition: background-color 0.1s ease, color 0.1s ease;
+  cursor: pointer;
+}
+
+.c-options:hover{
+  background-color: #734060;
+  color: #FFFFFF;
+}
 
 .c-options h3{
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 18px;
-  background-color: #E6E6E6;
   padding: 12px;
 }
 
@@ -382,14 +399,20 @@ html, body {
 
 }
 
-#pinch-of-yum li, #food-and-rec li{
+#pinch-of-yum li,
+#food-and-rec li{
   list-style: none;
-  font-size: 14px; 
+  font-size: 15px; 
   line-height: 30px;
   font-family: 'Bitter', serif;
   color: #4D4D4D;
-}
+  cursor: pointer;
 
+}
+#pinch-of-yum li:hover,
+#food-and-rec li:hover{
+  color: #734060;
+}
 #f-part2{
   display: grid;
   grid-template-rows: 1.3fr 1fr;
