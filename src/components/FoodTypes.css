@@ -1,5 +1,11 @@
 #food-card{
     position: relative;
+    background: #ffffff;
+    transition: opacity 1s ease;
+}
+
+#food-card :hover {
+    opacity: 0.8;
 }
 
 #p-img{
