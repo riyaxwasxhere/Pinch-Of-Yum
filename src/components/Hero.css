@@ -92,6 +92,12 @@
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
+    transition: background-color 1.5s ease;
+    cursor: pointer;
+}
+
+#view-all:hover{
+    background-color: #000;
 }
 
 #plus-icon{

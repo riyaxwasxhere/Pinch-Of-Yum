@@ -1,7 +1,16 @@
 #post-img img{
     height: 240px;
     width: 240px;
+    background-color: #fff;
+    opacity: 1;
+    transition: opacity 0.1s ease;
+    cursor: pointer;
 }
+
+#post-img img:hover{
+    opacity: 0.7;
+}
+
 #post{
     display: flex;
     gap: 20px;
@@ -13,6 +22,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 #post-details h4{
     color: #808080;
     text-transform: uppercase;
@@ -26,6 +36,11 @@
     font-family: "Playfair Display", serif;
     font-size: 30px;
     white-space: nowrap;
+    cursor: pointer;
+    transition: text-decoration 0.2s ease;
+}
+#post-details h1:hover{
+    text-decoration: underline;
 }
 
 #post-details p{
@@ -40,4 +55,10 @@
     color: #EBB454;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: color 0.1s ease;
+}
+
+#post-details h3:hover{
+    color: #000;
 }

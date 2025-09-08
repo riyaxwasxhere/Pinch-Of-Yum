@@ -1,15 +1,26 @@
 #rec-types{
     margin-bottom: 45px;
+    transition: opacity 1s ease;
+    opacity: 1;
 }
 
-#rec-types img{
+#rec-types :hover{
+    opacity: 0.8;
+    
+}
+
+#rec-nav{
+    text-decoration: none;
+}
+
+#rec-nav img{
     height: 100px;
     width: 100px;
     border-radius: 50%;
     object-position: center;
 }
 
-#rec-types h3{
+#rec-nav h3{
     white-space: wrap;
     text-align: center;
     color: #000;
