@@ -8,15 +8,13 @@ import Aside from './components/Aside';
 import Scroller from './components/Scroller';
 import CategoryItems from './components/CategoryItems';
 import Social from './components/Social';
+import Inbox from './components/Inbox';
 
 const App = () => {
+
   return (
     <div id='main-container'>
-      <div id="inbox">
-        <i id='heart' class="fa-solid fa-heart"></i>
-        <h2>our recipes, your inbox. <span id='signup'>Sign up</span></h2>
-        <i id='close' class="fa-solid fa-close"></i>
-      </div>
+      <Inbox/>
 
       <header>
         <Navbar/>

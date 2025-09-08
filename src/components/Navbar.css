@@ -12,6 +12,10 @@
   color: #734060;
 }
 
+.nav-logo{
+  text-decoration: none;
+}
+
 #of{
   font-family: "Dancing Script", cursive;
   font-weight: 400;
@@ -24,6 +28,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 35px;
+    position: relative;
 }
 
 .nav-link{
@@ -38,5 +43,29 @@
 #search{
     font-size: 19px;
     color: #734060;
+    cursor: pointer;
 }
 
+#searchInput{
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 40px;
+  outline: none;
+  width: 400px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 0 20px;
+  font-size: 18px;
+  width: 0;
+  opacity: 0;
+  transition: width 0.5s ease, opacity 0.5s ease;
+  z-index: 5;
+}
+
+#searchInput.applySearch{
+  width: 500px;
+  opacity: 1;
+  margin-left: 10px;
+}

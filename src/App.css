@@ -16,6 +16,10 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.5s ease;
 }
 
 #inbox h2, #signup{
@@ -30,6 +34,7 @@ html, body {
 #signup{
   color: #FFFFFF;
   font-weight: 900;
+  cursor: pointer;
 }
 
 #heart{
@@ -39,9 +44,24 @@ html, body {
 }
 
 #close{
+  background-color: transparent;
+  border: none;
+  outline: none;
   position: absolute;
+  right: 1%;
+  cursor: pointer;
+}
+
+#close i{
   right: 0.5%;
   color: #DDC5D8;
+}
+
+#inbox.close{
+  opacity: 0;
+  transform: translateY(-30px);
+  pointer-events: none;
+  height: 0;
 }
 
 .separator{
