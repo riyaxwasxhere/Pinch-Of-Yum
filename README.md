@@ -1,12 +1,73 @@
-# React + Vite
+# 🍽️ Pinch Of Yum UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based UI clone of the Pinch of Yum website built while learning React for the first time. This project helped me understand React fundamentals, component-based architecture, props, state management, and responsive UI development.
 
-Currently, two official plugins are available:
+> **Note:** This project was created for learning purposes only and is not affiliated with or intended to replace the original Pinch of Yum website.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🍽️ Responsive recipe blog UI
+- 🎠 Carousel/Slider
+- 🧩 Reusable React components
+- 📱 Mobile-friendly layout
+- 🎨 Clean and modern design
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- CSS
+- React Slick
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/riyaxwasxhere/Pinch-Of-Yum.git
+
+cd Pinch-Of-Yum
+npm install
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+Add screenshots of:
+- Home Page
+- Recipe Cards
+- Carousel
+- Mobile View
+
+---
+
+## 🎯 What I Learned
+
+- React components
+- Props and state
+- JSX
+- Component reusability
+- Responsive UI development
+- React project structure
+
+---
+
+## 🙏 Credits
+
+Inspired by the original **Pinch of Yum** website.
+
+This project was built purely for educational purposes.
+
+---
+
+## 👩‍💻 Author
+
+**Riya Dutta**
+
+GitHub: https://github.com/riyaxwasxhere
