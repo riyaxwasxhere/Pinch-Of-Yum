@@ -37,15 +37,6 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots of:
-- Home Page
-- Recipe Cards
-- Carousel
-- Mobile View
-
----
 
 ## 🎯 What I Learned
 
